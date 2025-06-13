@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "init-admin": "node src/init-admin.js",
+    "init_admin": "node src/config/init_admin.js",
     "test": "jest"
   },
   "repository": {
