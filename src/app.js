@@ -11,7 +11,7 @@ app.use(cors()); // Allow cross-origin requests
 app.use(morgan('dev')); // Log HTTP requests
 
 // Routes   
-app.use('/api/auth', auth_routes); // All auth routes will be prefixed with /api/auth
+app.use('/auth', auth_routes); // All auth routes will be prefixed with /api/auth
 
 // Health check endpoint
 app.get('/health', (req, res) => {
